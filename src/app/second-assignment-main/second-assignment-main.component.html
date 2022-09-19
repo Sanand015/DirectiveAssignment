@@ -1,0 +1,4 @@
+<button class="button" (click)="Count()">click me !</button>
+<div *ngFor="let element of countlist" >
+    <p [ngStyle]="{'background-color':element>4? 'blue' : 'null'}"> {{element}}</p>
+</div>
